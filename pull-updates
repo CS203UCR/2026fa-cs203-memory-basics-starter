@@ -2,4 +2,7 @@
 
 cp assignment.ipynb assignment.backup.ipynb
 git commit -am "My progress so far."
+git config pull.rebase false
 git pull --no-edit upstream main -X ours
+git config pull.rebase true
+
